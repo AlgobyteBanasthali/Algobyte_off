@@ -74,37 +74,3 @@ git push -u origin <your_branch_name>
 **15.** Voila :exclamation: You have made a PR to Algobyte :boom: 
 
 
-**Algobyte's Website Requirments**
-
-**ALGOBYTE WEBSITE**
-         
-	1. HOME PAGE
-
-        ->Introduction/Aim of algobyte
-        ->leads photos
-        ->Upcoming Events
-        ->testimonials
-
-    2. Events page
-
-        ->Upcoming events 
-        ->Past Events
-
-    3. Blogs Page 
-
-		->blogs about past events
-		->blogs about current technologies and 
-		->Experiences of Alumini of Banasthali Vidyapeeth.
-
-	4. Team Page
-
-		->About the team members of different teams.
-
-	5. Resources
-
-		->Resources for learning different technologies.
-		
-	6.Contact us page 
-
-		->Contact form 
-		->Algobyte Mail.

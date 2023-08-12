@@ -72,3 +72,28 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 **15.** Voila :exclamation: You have made a PR to Algobyte :boom: 
+
+
+/*ALGOBYTE WEBSITE REQUIRMENTS*/
+
+
+ALGOBYTE WEBSITE
+         1).  HOME PAGE
+                 ->Introduction/Aim of algobyte
+                 ->leads photos
+                 ->Upcoming Events
+                 ->testimonials
+         2) . Events Page
+                 ->Upcoming events 
+                 ->Past Events
+         3) . Blogs Page 
+		->blogs about past events
+		->blogs about current technologies and 
+		->Experiences of Alumini of Banasthali Vidyapeeth.
+	4) . Team Page
+		->About the team members of different teams.
+	5) . Resources
+		->Resources for learning different technologies.
+	6).Contact us page 
+		->Contact form 
+		->Algobyte Mail.

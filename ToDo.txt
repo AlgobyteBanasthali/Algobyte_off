@@ -1,1 +1,2 @@
-
+-Add banner images of events.
+-Create Medium links for blogs, and add hyperlink.

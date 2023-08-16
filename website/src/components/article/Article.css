@@ -1,0 +1,88 @@
+.algobyte__blog-container_article{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 100% 100%, rgba(18, 87, 163, 1) 0%, rgba(3, 50, 96, 1) 52%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 100% 100%, rgba(18, 87, 163, 1) 0%, rgba(3, 50, 96, 1) 52%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 100% 100%, rgba(18, 87, 163, 1) 0%, rgba(3, 50, 96, 1) 52%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 100% 100%, rgba(18, 87, 163, 1) 0%, rgba(3, 50, 96, 1) 52%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 100% 100%, rgba(18, 87, 163, 1) 0%, rgba(3, 50, 96, 1) 52%);
+
+}
+
+.algobyte__blog-container_article-image{
+    width: 100%;
+    height: 100%;
+    background: var(--color-footer);
+    border-radius: 2rem 2rem 0 0;
+    flex: 1.6;
+}
+
+.algobyte__blog-container_article-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.algobyte__blog-container_article-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 1rem 1.5rem;
+    height: 100%;
+    flex: 2;
+}
+
+.algobyte__blog-container_article-content p{
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 35px;
+    color: var(--color-primary);
+}
+
+.algobyte__blog-container_article-content h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--color-primary);
+
+    margin-bottom: 5rem;
+}
+
+.algobyte__blog-container_article-content p:last-child{
+    cursor: pointer;
+    background: var(--color-primary);
+    width: max-content;
+    padding: 0.2rem 0.7rem;
+    color: var(--color-bg);
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.algobyte__blog-container_article-content p:last-child:hover{
+    background: var(--gradient-text);
+    color: var(--color-primary);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 550px) {
+    .algobyte__blog-container_article-content h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

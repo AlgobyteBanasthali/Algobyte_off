@@ -1,0 +1,43 @@
+.algobyte__team{
+    display: flex;
+    flex-direction: column;
+}
+
+.algobyte__team-heading{
+    width: 100%;
+    text-align: left;
+
+    margin-bottom: 5rem;
+}
+
+.algobyte__team-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.algobyte__team-container{
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem;
+}
+
+.algobyte__team-container .algobyte__blog-container_article{
+    background: var(--color-bg-variant);
+}
+
+@media screen and (max-width: 990px){
+    .algobyte__team-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .algobyte__team-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

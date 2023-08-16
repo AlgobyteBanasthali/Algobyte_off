@@ -1,0 +1,108 @@
+.algobyte__wab{
+    padding-top: 1em;
+}
+
+.algobyte__whatalgobyte{
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    /* background: var(--color-footer); */
+}
+
+.algobyte__whatalogbyte-feature div{
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.algobyte__whatalogbyte-feature div div{
+    flex-direction: row;
+}
+
+.algobyte__whatalogbyte-feature div div div{
+    height: 5rem;
+    width: 0.2rem;
+    padding: 0;
+    background: var(--gradient-bar);
+    box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 0.25rem;
+}
+
+.algobyte__whatalgobyte-feature .algobyte__features-container__feature{
+    margin: 0;
+}
+
+.algobyte__whatalgobyte-feature .algobyte__features-container__feature-text{
+    max-width: 700px;
+}
+
+.algobyte__whatalgobyte-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 4rem 0 2rem;
+}
+
+.algobyte__whatalgobyte-heading h1{
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 800;
+    max-width: 510px;
+    line-height: 45px;
+}
+
+.algobyte__whatalgobyte-heading a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.algobyte__whatalgobyte-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 780px) {
+    .algobyte__whatalgobyte-container{
+        flex-direction: column;
+    }
+    
+    .algobyte__whatalogbyte-feature div {
+        flex-direction: column;
+    }
+
+    .algobyte__whatalogbyte-feature div div{
+        flex-direction: column;
+    }
+
+    .algobyte__whatalogbyte-feature div div div{
+        width: 5rem;
+        height: 0.2rem;
+        padding: 0;
+        background: var(--gradient-bar);
+        box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.1);
+        margin: 0.25rem 0;
+    }
+
+    .algobyte__whatalgobyte-feature .algobyte__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .algobyte__whatalgobyte-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .algobyte__whatalgobyte-container .algobyte__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

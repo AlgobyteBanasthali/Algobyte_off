@@ -1,0 +1,79 @@
+.algobyte__features{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.algobyte__features-heading{
+    width: 40rem;
+    flex: 0.5;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.algobyte__features-container{
+    flex: 1;
+}
+
+.algobyte__features-container div{
+    margin-left: 3rem;
+    width: 90%;
+    flex-direction: row;
+}
+
+.algobyte__features-container div div{
+    flex-direction: column;
+}
+
+.algobyte__features-container div div div{
+    width: 5rem;
+    height: 0.2rem;
+    padding: 0;
+    background: var(--gradient-bar);
+    box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.1);
+    margin: 0.3rem 0;
+}
+
+.algobyte__features-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.algobyte__features-heading p{
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+}
+
+@media screen and (max-width: 1024px){
+    .algobyte__features{
+        flex-direction: column;
+    }
+    .algobyte__features-heading{
+        margin-top: 1rem;
+        width: 95%;
+    }
+    .algobyte__features-container{
+        margin-top: 2rem;
+    }
+    .algobyte__features-container div{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .algobyte__features-container div{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,132 @@
+.algobyte__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.algobyte__contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.algobyte__contact-heading{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.algobyte__contact-heading h1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.algobyte__contact-container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 12%;
+}
+
+.algobyte__contact-contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: var(--color-primary);
+}
+
+.algobyte__contact-contact__option{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.algobyte__contact-contact__option:hover{
+    background: var(--gradient-bg-nav);
+    border-color: transparent;
+}
+
+.algobyte__contact-contact__option-icons{
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.algobyte__contact-contact__option h4{
+    font-family: var(--font-family);
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.algobyte__contact-contact__option h5{
+    font-family: var(--font-family);
+    font-weight: 300;
+}
+
+.algobyte__contact-contact__option a{
+    font-family: var(--font-family);
+    color: var(--color-primary);
+    margin-top: 2rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+form{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-primary);
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    padding: 0.75rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+}
+
+.btn:hover{
+    background: var(--color-bg-variant);
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+    .algobyte__contact-container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .algobyte__contact-container{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .algobyte__contact-container{
+        width: var(--container-width-sm);
+    }
+
+    .algobyte__contact-heading h1{
+        font-size: 48px;
+        line-height: 62px;
+    }
+}

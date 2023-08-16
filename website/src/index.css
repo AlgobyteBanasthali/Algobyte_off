@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(90deg, rgba(127, 23, 195, 1) 0%, rgba(244, 152, 103, 1) 100%);
+  --gradient-bg-nav: linear-gradient(90deg, rgba(127, 23, 195, 1) 0%, rgba(244, 152, 103, 0.7) 100%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-bg-variant: #0c2140b1;
+  --color-primary: #fff;
+  --color-primary-variant: #ced3fc;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+/* Curcor animation */
+
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .circle{
+    display: none;
+  }  
+}

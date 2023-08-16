@@ -1,0 +1,125 @@
+.algobyte__footer {
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.algobyte__footer-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.algobyte__footer-heading h1{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 75px;
+
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.algobyte__footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    width: 100%;
+    text-align: left;
+}
+
+.algobyte__footer-links div{
+    width: 250px;
+    margin: 1rem;
+}
+
+.algobyte__footer-links_logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.algobyte__footer-links_logo img{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.algobyte__footer-links_div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.algobyte__footer-links_div h4{
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 16px;
+
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.algobyte__footer-links_div p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--color-primary);
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.algobyte__footer-copyright{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.algobyte__footer-copyright p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--color-primary-varient);
+}
+
+@media screen and (max-width: 850px) {
+    .algobyte__footer-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .algobyte__footer-links_logo img{
+        width: 80px;
+        height: 64px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .algobyte__footer-heading h1{
+        font-size: 27px;
+        line-height: 38px;
+    }
+    .algobyte__footer-links div{
+        margin: 1rem 0;
+    }
+    .algobyte__footer-links{
+        justify-content: center;
+        align-items: center;
+    }
+    .algobyte__footer-links_logo{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .algobyte__footer-links_div{
+        justify-content: center;
+        align-items: center;
+    }
+}
